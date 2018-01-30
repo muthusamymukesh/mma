@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[5],j,sum=0;
+clrscr();
+for(j=0;j<5;j++)
+{
+scanf("%d",&a[j]);
+}
+for (j=0;j<=2;j++)
+{
+sum=sum+a[j];
+printf("\n the value of %d",sum);
+}
+getch();
+}
